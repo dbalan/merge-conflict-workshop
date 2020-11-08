@@ -5,6 +5,7 @@ We have following code:
 
 ```
 def get_me_current_year():
-    return date.now().year
+    current_time = date.now()
+    return current_time.year()
 ```
 
